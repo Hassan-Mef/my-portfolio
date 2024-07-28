@@ -1,5 +1,4 @@
 'use client'
-
 import { cn } from "@/utils/cn";
 import { BackgroundGradientAnimation } from "./GradientBg";
 import GridGlobe  from "./GridGlobe";
