@@ -88,10 +88,10 @@ export const projects = [
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "Farman Foods - E-Commerce website",
+    des: "A Wordpress E-Commerce website for a selling Organic Honey Online",
     img: "/Pr3.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    iconLists: ["/wp.png", "/woo.png", "/css.png",  "/ele.jpeg"],
     link: "/ui.aiimg.com",
   },
   {
@@ -107,7 +107,7 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Hassan is an excellent Discord server expert who did a fantastic job creating a server for my community. He completed the project in a short amount of time, and he madesure that the server had all the features and settings that I wanted.                                                                                                  ",
+      "Hassan is an excellent Discord server expert who did a fantastic job creating a server for my community. He completed the project in a short amount of time, and he made sure that the server had all the features and settings that I wanted.                                                                                                  ",
     name: "William Paul",
     title: "CEO of NOTA CLUB",
     img: "/profiles/williams.png",
@@ -130,15 +130,15 @@ export const testimonials = [
     quote:
       "Collaborating with Hassan was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Hassan's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Hassan is the ideal partner.",
     name: " Muhammad Zawahir",
-    title: "Director of Zawi Enterprises",
+    title: "Director at Zawi Enterprises",
     img: "/profiles/zawi.png",
   },
   {
     quote:
-      "Collaborating with Hassan was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Hassan's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Shaheer faisal",
-    title: "Client From Upwork",
-    img: "/profiles/shaggy.png",
+      "Hassan Mehmood is a great WordPress developer who created a website for my business, FarmanFoods, in a timely and efficient manner. He met all my requirements and expectations, and also gave me valuable advice on how to optimize the website for speed and usability.",
+    name: "Farman Khan",
+    title: "CEO of FarmanFoods",
+    img: "/profiles/farman.png",
   },
 ];
 
@@ -193,14 +193,14 @@ export const workExperience = [
   {
     id: 3,
     title: "Discord Moderator",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    desc: "Managed community interactions, enforced server rules, and facilitated a positive environment.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "WordPress Developer",
+    desc: "Developed and maintained e-commerce websites, implementing user-facing features with modern frontend technologies",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
