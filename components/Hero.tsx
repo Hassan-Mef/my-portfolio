@@ -33,7 +33,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I'm Hassan Mehmood a Next.js Devloper Based in Pakistan
+            Hi, I&apos;m Hassan Mehmood a Next.js Devloper Based in Pakistan
           </p>
 
           <a href="#about">
