@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building a FPS Shooter in C++",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,25 +72,25 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
+    title: "Responsive Next.js Portfolio",
+    des: "My current portfolio website you are currently looking at.",
+    img: "/Pr1.jpeg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "https://www.ui.earth.com",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Simple Responsive React Portfolio",
+    des: "A minimalist, clean and responsive design website made in React ",
+    img: "/Pr2.jpeg",
+    iconLists: ["/re.svg", "/css.png", "/ts.svg", "/fm.svg", "/c.svg"],
+    link: "https://github.com/Hassan-Mef/React-Portfolio",
   },
   {
     id: 3,
     title: "AI Image SaaS - Canva Application",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    img: "/Pr3.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "/ui.aiimg.com",
   },
@@ -107,33 +107,38 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Hassan is an excellent Discord server expert who did a fantastic job creating a server for my community. He completed the project in a short amount of time, and he madesure that the server had all the features and settings that I wanted.                                                                                                  ",
     name: "William Paul",
     title: "CEO of NOTA CLUB",
+    img: "/profiles/williams.png",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Hassan is an amzaing Discord Developer. He provided me with many useful tips and ideas on how to enhance the server’s functionality and make it more secure from raids. He was very professional, friendly and responsive throughout the project. I am very pleased with the server he created.                                                ",
     name: "Haroon ",
     title: "Founder of JHM",
+    img: "/profile.svg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Hassan was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Hassan's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Hassan is the ideal partner.",
     name: "Huzaifa Saad",
     title: "COO of Softronix ",
+    img: "/profiles/huzaifa.png",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Hassan was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Hassan's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Hassan is the ideal partner.",
     name: " Muhammad Zawahir",
     title: "Director of Zawi Enterprises",
+    img: "/profiles/zawi.png",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Hassan was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Hassan's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
     name: "Shaheer faisal",
     title: "Client From Upwork",
+    img: "/profiles/shaggy.png",
   },
 ];
 
@@ -181,7 +186,7 @@ export const workExperience = [
   {
     id: 2,
     title: "Discord Developer - NOTA CLUB",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    desc: "Designed and developed completly functioning discord server.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
@@ -205,13 +210,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/Hassan-Mef" ,
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "" ,
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/hassan-mehmood-b5965a24b/" ,
   },
 ];
