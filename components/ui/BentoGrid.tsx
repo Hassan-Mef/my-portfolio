@@ -53,8 +53,8 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["ReactJS", "Express", "Typescript"];
-  const rightLists = ["VueJS", "NuxtJS", "GraphQL"];
+  const leftLists = ["ReactJS", "NextJS", "Typescript"];
+  const rightLists = ["TailwindCSS", "MongoDB", "ThreeJS"];
 
   const [copied, setCopied] = useState(false);
 
@@ -95,6 +95,8 @@ export const BentoGridItem = ({
             <Image
               src={img}
               alt={img}
+              width={100}
+              height={100}
               className={cn(imgClassName, "object-cover object-center ")}
             />
           )}
@@ -108,6 +110,8 @@ export const BentoGridItem = ({
             <Image
               src={spareImg}
               alt={spareImg}
+              width={220}
+              height={100}
               //   width={220}
               className="object-cover object-center w-full h-full"
             />

@@ -1,3 +1,5 @@
+"use client"
+
 import Clients from "@/components/Clients";
 import Experince from "@/components/Experince";
 import Footer from "@/components/Footer";
@@ -7,8 +9,7 @@ import Process from "@/components/Process";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FLoatingNav";
 import { navItems } from "@/Data";
-import Image from "next/image";
-import { FaHome } from "react-icons/fa";
+
 
 export default function Home() {
   return (

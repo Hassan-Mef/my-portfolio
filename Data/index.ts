@@ -76,7 +76,7 @@ export const projects = [
     des: "My current portfolio website you are currently looking at.",
     img: "/Pr1.jpeg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://www.ui.earth.com",
+    link: "https://hassan-mef.netlify.app/",
   },
   {
     id: 2,
@@ -92,7 +92,7 @@ export const projects = [
     des: "A Wordpress E-Commerce website for a selling Organic Honey Online",
     img: "/Pr3.png",
     iconLists: ["/wp.png", "/woo.png", "/css.png",  "/ele.jpeg"],
-    link: "/ui.aiimg.com",
+    link: "https://farmanfoods.com",
   },
   {
     id: 4,
